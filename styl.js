@@ -132,7 +132,6 @@ process.stdin.on('end', function () {
 		font.OS_2.fsSelection.italic = true;
 		font.OS_2.fsSelection.regular = false;
 	}
-	font.OS_2.fsSelection.useTypoMetrics = true;
 
 	font.OS_2.usWeightClass = 400;
 	if (/Bold/.test(style)) {
