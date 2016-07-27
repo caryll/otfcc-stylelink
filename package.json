@@ -1,0 +1,9 @@
+{
+	"name": "otfcc-styl",
+	"version": "0.1.0",
+	"main": "./styl.js",
+	"license": "Apache 2.0",
+	"bin": {
+		"otfcc-c2q": "./styl.js"
+	}
+}
