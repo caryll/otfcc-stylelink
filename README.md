@@ -1,15 +1,15 @@
-# otfcc-cubic2quad
-Losslessly turn CFF OTF to TTF using otfcc.
+# otfcc-stylelink
+Correct names for style linking.
 
 ## Installation
 
 ```bash
-npm install -g otfcc-c2q
+npm install -g otfcc-styl
 ```
 
 ## Usage
 
 ```bash
-otfccdump input.otf | otfcc-c2q | otfccbuild -o output.ttf
+otfccdump input.otf | otfcc-styl | otfccbuild -o output.otf
 ```
 
