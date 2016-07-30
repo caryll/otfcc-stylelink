@@ -34,7 +34,11 @@ process.stdin.on('end', function () {
 			}
 		}
 	}
-	style = style.replace(/Italic$/, ' Italic').replace(/XBold/, 'ExtraBold');
+	style = style
+		.replace(/ ?Italic$/, ' Italic')
+		.replace(/ ?Oblique$/, ' Oblique')
+		.replace(/XBold/, 'ExtraBold')
+		.replace(/XLight/, 'ExtraLight');
 	if (!style) {
 		style = "Regular"
 	}
