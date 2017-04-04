@@ -1,3 +1,5 @@
+#!/usr/env/bin node
+
 var path = require('path');
 var fs = require('fs');
 
